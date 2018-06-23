@@ -1,0 +1,224 @@
+body{font-size:12px;font-family:Arial,Helvetica,'宋体',sans-serif;color:#333;background:#fff;margin:0;}
+a:link{color:#0041D9;text-decoration:none;outline:none;}
+a:visited{color:#0041D9;text-decoration:none;outline:none;}
+a:hover{color:#f60;text-decoration:underline;outline:none;}
+a:active{color:#0041D9;text-decoration:none;outline:none;}
+#main_div{ margin:0 auto; width:1024px;text-align:left;}
+#header{position:relative;width:100%;}
+div.bar{position:relative;height:42px;background:url(../images/toolbar/mainmenu.bg14_6x42.gif) repeat-x;}
+#header div.tabbar{width:900px;}
+#header .tabbar div.tabs{left:10px;position:absolute;top:41px;font-size:14px;font-weight:bold;}
+#header .tabbar .tabs a{float:left;width:80px;height:24px;line-height:24px;padding-top:7px;text-align:center;color:#000;font-weight:lighter;font-size:14px;background:transparent;}
+#header .tabbar .tabs a:hover{background:#fff url(../images/toolbar/nav_hover_80x31.gif) no-repeat;text-decoration:none;margin-left:-1px;padding-left:1px;}
+#header .tabbar .tabs a.actived{background:#fff url(../images/toolbar/nav_80x31.gif) no-repeat;font-weight:bold;color:#fff;margin-left:-1px;padding-left:1px;}
+#header .tabbar .tabs a.actived:hover{background:#fff url(../images/toolbar/nav_80x31.gif) no-repeat;font-weight:bold;color:#fff;text-decoration:underline;}
+#header .tabbar .bg{position:absolute;left:10px;top:41px;width:560px;height:31px;z-index:-1;}
+#header .tabbar .bg .nw{float:left;width:80px;height:31px;background:transparent url(../images/toolbar/navleft2_80x31.gif) no-repeat;}
+#header .tabbar .bg .cen{float:left;width:80px;height:31px;background:transparent url(../images/toolbar/navlcenter_80x31.gif) no-repeat;}
+#header .tabbar .bg .ne{float:left;width:80px;height:31px;background:transparent url(../images/toolbar/navright_80x31.gif) no-repeat;}
+#header .tabbar .float_icon{background:transparent url(../images/toolbar/new01_18x19.gif) no-repeat;font-size:0;height:19px;line-height:0;position:absolute;right:403px;text-indent:-999px;top:-4px;width:18px;}
+#header{z-index:20;min-width:970px;}
+#header div.banner{position:relative;height:72px;z-index:10;}
+div.bar{height:7px;background:url(../images/toolbar/mainmenu.bg11_6x7.gif) repeat-x;}
+
+div#user_nav {
+    margin: 3px 0 0 0;
+    padding: 2px;
+    text-align: right;
+    float: right;
+}
+
+div#user_nav a.nobg {
+    background: none;
+}
+
+div#user_nav a.welcome {
+    color: #E28822;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+div#user_nav a:hover.welcome {
+    text-decoration: none;
+    color: #E28822;
+    background-color: transparent;
+}
+
+div#user_nav a.new_reply {
+    color: red;
+    padding-left: 0;
+}
+
+div#user_nav a:hover.new_reply {
+    text-decoration: none;
+    color: red;
+    background-color: transparent;
+}
+
+div#user_nav a {
+    text-decoration: none;
+    padding: 5px 8px;
+    color: gray;
+    line-height: 1em;
+    background-image: url(../images/line_gray.gif);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+div#user_nav a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: gray;
+}
+
+
+.titlebar .right {
+    background-image: url("../images/titbar/titbar_s1_lr.gif");
+    background-position: -5px 0;
+    background-repeat: no-repeat;
+    float: right;
+    height: 27px;
+    width: 5px;
+}
+
+
+.titlebar {
+    background-image: url("../images/titbar/titbar_s1_bg.gif");
+    background-repeat: repeat-x;
+    height: 27px;
+}
+.titlebar .left {
+    background-image: url("../images/titbar/titbar_s1_lr.gif");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    float: left;
+    height: 27px;
+    width: 5px;
+}
+.titlebar .right {
+    background-image: url("../images/titbar/titbar_s1_lr.gif");
+    background-position: -5px 0;
+    background-repeat: no-repeat;
+    float: right;
+    height: 27px;
+    width: 5px;
+}
+.titlebar .tabbg1 {
+    background-image: url("../images/titbar/softsub.gif");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    color: #005A06;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 3px;
+    text-align: center;
+    width: 133px;
+}
+.titlebar .tabbg2 {
+    background-image: url("../images/titbar/softsub.gif");
+    background-position: 0 -24px;
+    background-repeat: no-repeat;
+    color: #006699;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 3px;
+    text-align: center;
+    width: 133px;
+}
+.titlebar .titbg {
+    background-image: url("../images/titbar/titbg_s1_l.gif");
+    background-repeat: no-repeat;
+    color: #005A06;
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 7px 8px 0 16px;
+}
+.titlebar .titr {
+    background-image: url("../images/titbar/titbg_s1_r.gif");
+    background-repeat: no-repeat;
+    float: left;
+    height: 27px;
+    width: 7px;
+}
+.titlebar .tittab1_off {
+    color: #005A06;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    padding-top: 5px;
+    text-align: center;
+    width: 120px;
+}
+.titlebar .tittab1_on {
+    background-image: url("../images/titbar/tittab1_bg1.gif");
+    background-repeat: no-repeat;
+    color: #005A06;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+    width: 100px;
+}
+.titlebar h3 {
+    color: #005A06;
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-top: 7px;
+}
+.tittab_s1 {
+    background-image: url("../images/titbar/titletab1_bg.gif");
+    background-repeat: repeat-x;
+    height: 28px;
+}
+.tittab_s1 .left h3 {
+    color: #005A06;
+    font-size: 14px;
+    font-weight: 700;
+    width: 100px;
+}
+.tittab_s1 .left {
+    background-image: url("../images/titbar/titletab1_l.gif");
+    background-repeat: no-repeat;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    padding-right: 4px;
+}
+.tittab_s1 .notetab {
+    background-image: url("../images/titbar/notetab.gif");
+    background-repeat: no-repeat;
+    color: #996600;
+    float: right;
+    height: 28px;
+    line-height: 22px;
+    text-align: center;
+    width: 260px;
+}
+.tittab_s1 .right {
+    background-image: url("../images/titbar/titletab1_r.gif");
+    float: left;
+    height: 28px;
+    width: 6px;
+}

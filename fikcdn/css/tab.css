@@ -1,0 +1,158 @@
+
+
+.menu_toolbar {  BACKGROUND: url(../images/tab/nav_bar_bg.jpg);
+				 margin:0px auto;
+				 padding:0px inherit; 
+				 CLEAR: both; 
+				 OVERFLOW: hidden; 
+				 HEIGHT: 22px;
+				 vertical-align:middle;
+				 line-height:22px;
+				 }
+.menu_toolbar UL { margin:0;padding:0; }
+.menu_toolbar LI {
+	HEIGHT: 22px;
+	line-height:22px;
+	vertical-align:middle;
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; 
+	CURSOR: pointer; 
+	LIST-STYLE-TYPE: none;
+	padding-top:2px;
+}
+.menu_toolbar .active {
+BACKGROUND: url(../images/tab/bg5_6_1.gif); FLOAT: left; WIDTH: 146px; TEXT-ALIGN: center;
+}
+.menu_toolbar .normal {
+BACKGROUND: url(../images/tab/bg5_6_2.gif); FLOAT: left; WIDTH: 145px; TEXT-ALIGN: center;
+}
+
+.menu_toolbar a{ color:#000000; font-size:12px;TEXT-DECORATION: none}
+.menu_toolbar a:hover{ color:#000000; TEXT-DECORATION: none}
+.menu_toolbar A:link {
+	COLOR: #000000;TEXT-DECORATION: none
+}
+.menu_toolbar A:visited {
+	COLOR: #000000; TEXT-DECORATION: none;
+}
+.menu_toolbar A:hover {
+	COLOR: #000000;TEXT-DECORATION: none
+}
+.menu_toolbar A:active {
+	COLOR: #000000;TEXT-DECORATION: none
+}
+
+
+.HeadNavBar { 
+	margin:0px auto; 
+	width:1024px;
+	height:22px;
+	text-align:left; 
+	PADDING-TOP:5px;
+	padding-bottom:0px;
+	PADDING-LEFT:5px;
+}
+
+.HeadNavBar a{ color:#800080; font-size:12px;text-decoration:underline}
+.HeadNavBar a:hover{ color:#090000; text-decoration:underline}
+.HeadNavBar A:link {
+	COLOR: #800080; TEXT-DECORATION: underline
+}
+.HeadNavBar A:visited {
+	COLOR: #800080; TEXT-DECORATION: none;text-decoration:underline
+}
+.HeadNavBar A:hover {
+	COLOR: #003366; TEXT-DECORATION: underline
+}
+.HeadNavBar A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+
+.div_right_nav{
+	width:200px;
+	min-height:600px;
+	float:left;
+	BACKGROUND-COLOR: #f5f6f7;
+	border:1px solid #C9C9C9;
+}
+
+.div_right_nav a{ color:#003366; font-size:14px;text-decoration:none}
+.div_right_nav a:hover{ color:#090000; text-decoration:none}
+.div_right_nav A:link {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+.div_right_nav A:visited {
+	COLOR: #003366; TEXT-DECORATION: none;text-decoration:none
+}
+.div_right_nav A:hover {
+	COLOR: #800080; TEXT-DECORATION: none
+}
+.div_right_nav A:active {
+	COLOR: #800080; TEXT-DECORATION: none
+}
+
+.div_right_nav .title{
+	height:28px;
+	line-height:28px;
+	BACKGROUND: url(../images/tab/right_tab_bg.gif);
+	TEXT-ALIGN: left;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:7px;
+}
+
+
+.div_product_right_nav{
+	width:160px;
+	min-height:600px;
+	float:left;
+	BACKGROUND-COLOR: #f5f6f7;
+	border:1px solid #C9C9C9;
+}
+
+.div_product_right_nav a{ color:#003366; font-size:14px;text-decoration:none}
+.div_product_right_nav a:hover{ color:#090000; text-decoration:none}
+.div_product_right_nav A:link {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+.div_product_right_nav A:visited {
+	COLOR: #003366; TEXT-DECORATION: none;text-decoration:none
+}
+.div_product_right_nav A:hover {
+	COLOR: #800080; TEXT-DECORATION: none
+}
+.div_product_right_nav A:active {
+	COLOR: #800080; TEXT-DECORATION: none
+}
+
+.div_product_right_nav .title{
+	height:28px;
+	line-height:28px;
+	BACKGROUND: url(../images/tab/right_tab_bg.gif);
+	TEXT-ALIGN: left;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:7px;
+}
+
+
+
+.divCrashCountFrame{
+	float:right;
+	padding-right:90px;
+}
+
+.divCrashCountFrame #divCrashCount{
+	width:650px;
+	height:350px;
+}
+
+.divCrashCountFrame #divModuleTable{
+	width:650px;
+	height:350px;
+}
+
+.div_uid_search{
+	line-height:28px;
+	width:1024px;
+}

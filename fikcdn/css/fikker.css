@@ -1,0 +1,96 @@
+html, body{
+	font-size:12px;
+	font-family:verdana, Tahoma, Arial, "微软雅黑", "宋体", sans-serif;
+}
+table {
+	font-size:14px;
+	color: #666666;
+	font-family:verdana, Tahoma, Arial, "微软雅黑", "宋体", sans-serif;
+}
+a:link, a:hover, a:active, a:visited {
+	font-size:12px;
+	color: #1875C6;
+	font-family: verdana, Tahoma, Arial, "微软雅黑", "宋体", sans-serif;
+	text-decoration: none;
+}
+.inputText{
+	width:118px;
+	height:21px;
+	padding-top:0px;
+	font-size:14px;
+	font-family: verdana, Tahoma, Arial, "微软雅黑", "宋体", sans-serif;
+	border:1px solid #94c6e1;
+	background:#fff;
+	color:#22ac38;
+	vertical-align:middle;
+}
+.radio{
+	margin: -3px 0 0 0 !important;
+	vertical-align: middle !important;
+}
+.checkbox {
+	margin: -3px 0 0 0 !important;
+	vertical-align:middle;
+	font-size:100%;
+}
+.pTitle {
+	font-size:13px;
+	font-weight:bold;
+	font-family: verdana, Tahoma, Arial, "微软雅黑", "宋体", sans-serif;
+	color:#1875C6;
+	background:#FFffff;
+}
+.IDTD {
+	color:#8E3412;
+	font-weight:bold;
+	border-right:1px solid #dddddd;
+	border-top:0px solid #ffffff;
+	border-bottom:0px solid #ffffff;
+}
+.objTitle {
+	padding-left:0px;
+	font-size:13px;
+	font-weight:bold;
+	font-family: verdana, Tahoma, Arial, "微软雅黑", "宋体", sans-serif;
+	vertical-align:text-top;
+	line-height:21px;
+	height:19px;
+	text-align:right;
+}
+
+.underLine {
+	word-wrap: break-word;
+	font-family: verdana, Tahoma, Arial, "微软雅黑", "宋体", sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:underline;
+	color:#1875C6;
+	vertical-align:text-top;
+	padding-top:0px;
+	border-bottom:0px dashed #ccc;
+	line-height:21px;
+	height:19px;
+}
+.note {
+	padding-left:0px;
+	padding-right:10px;
+	font-family: verdana, Tahoma, Arial, "微软雅黑", "宋体", sans-serif;
+	font-size:12px;
+	height:20px;
+	line-height:20px;
+	height:18px;
+}
+.normal {
+	font-size:12px;
+	font-family: verdana, Tahoma, Arial, "微软雅黑", "宋体", sans-serif;
+	vertical-align: middle;
+}
+
+.input_red_tips{
+	font-family: verdana, Tahoma, Arial, "微软雅黑", "宋体", sans-serif;
+	font-size: 12px;
+	margin-left:8px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #ff0000;
+}

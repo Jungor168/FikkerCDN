@@ -1,0 +1,163 @@
+
+a:link, a:hover, a:active, a:visited {
+	font-size:12px;
+	color: #004499;
+	font-family: verdana, Tahoma, Arial, "Î¢ÈíÑÅºÚ", "ËÎÌå", sans-serif;
+	text-decoration: none;
+}
+
+#fikcdn_main_div { min-width:920px;}
+#main_top_space {background-color: #1D3647; padding-top:20px;}
+
+#main_top_div {
+    margin:0,0,0,0;
+	background-color: #1D3647;
+	height:64px;
+	background-image: url(../images/top-right.gif);
+	background-repeat: repeat-x;
+}
+
+#main_top_logo{
+	margin-left:15px;
+	background-image: url(../images/login/logo.png);
+	background-repeat: repeat-x;
+	width:148px;
+	height:36px;
+	float:left;
+}
+
+#main_top_right{float:right; width:127px;height:37px;}
+
+#main_top_txt {
+	font-family: verdana, Tahoma, Arial, "Î¢ÈíÑÅºÚ", "ËÎÌå", sans-serif;
+	font-size: 12px;
+	line-height:25px;
+	color:#FFFFFF;
+	text-align:left;
+	float:right;
+	width:400px;
+	height:30px;
+}
+
+
+.left_topbg {background-image: url(../images/content-bg.gif);	background-repeat: repeat-x;}
+
+
+.title_bt {
+	font-size: 12px;
+	line-height: 26px;
+	font-weight: bold;
+	width:85px;
+	color: #000000;
+	background-image: url(../images/top_bt.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	padding-top: 5px;
+	text-align:center;
+}
+
+.title_bt_active {
+	font-size: 12px;
+	line-height: 17px;
+	font-weight: bold;
+	width:85px;
+	color: #000000;
+	background-image: url(../images/top_btn_not.png);
+	background-repeat: no-repeat;
+	display: block;
+	padding-top: 5px;
+	text-align:center;
+}
+
+.input_tips_txt{
+	font-family: verdana, Tahoma, Arial, "Î¢ÈíÑÅºÚ", "ËÎÌå", sans-serif;
+	font-size: 12px;
+	margin-left:8px;
+	line-height: 25px;
+	color: #ff0000;
+}
+
+.input_tips_txt2{
+	font-family: verdana, Tahoma, Arial, "Î¢ÈíÑÅºÚ", "ËÎÌå", sans-serif;
+	font-size: 12px;
+	margin-left:8px;
+	line-height: 25px;
+	color: #ff0000;
+}
+
+.input_tips_txt3{
+	font-family: verdana, Tahoma, Arial, "Î¢ÈíÑÅºÚ", "ËÎÌå", sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left:0px;
+	line-height: 25px;
+}
+
+.input_tips_txt4{
+	font-family: verdana, Tahoma, Arial, "Î¢ÈíÑÅºÚ", "ËÎÌå", sans-serif;
+	font-size: 12px;
+	margin-left:8px;
+	line-height: 25px;
+}
+
+.input_tips_txt5{
+	font-family: verdana, Tahoma, Arial, "Î¢ÈíÑÅºÚ", "ËÎÌå", sans-serif;
+	font-size: 12px;
+	margin-left:8px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.input_tips_txt6{
+	font-family: verdana, Tahoma, Arial, "Î¢ÈíÑÅºÚ", "ËÎÌå", sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+.TabToolTitle a:link,a:hover,a:active,a:visited{color: #1875C6; text-decoration: none;}
+.div_page_bar { margin:0,0,0,0; float:right; padding-right:20px;}
+.div_search_title { margin:0,0,0,0; float:right; padding-right:20px;}
+
+.checkbox {
+	margin: -2px 0 0 0 !important;
+	vertical-align:middle;
+}
+
+.title_line {
+    border-bottom: 1px dotted rgb(153, 153, 153);
+    padding-bottom: 0px;
+    padding-top: 2px;
+	font-family: verdana, Tahoma, Arial, "Î¢ÈíÑÅºÚ", "ËÎÌå", sans-serif;
+	font-size: 12px;
+}
+
+.input_red_tips{
+	font-family: verdana, Tahoma, Arial, "Î¢ÈíÑÅºÚ", "ËÎÌå", sans-serif;
+	font-size: 12px;
+	margin-left:8px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.input_red_tips2{
+	font-family: verdana, Tahoma, Arial, "Î¢ÈíÑÅºÚ", "ËÎÌå", sans-serif;
+	font-size: 12px;
+	margin-left:0px;
+	line-height: 25px;
+	color: #ff0000;
+}
+
+.input_btnpay{
+	font-family: verdana, Tahoma, Arial, "Î¢ÈíÑÅºÚ", "ËÎÌå", sans-serif;
+	font-size: 12px;
+	margin-left:0px;
+	line-height: 25px;
+	font-weight: bold;
+	width: 152px;
+	height: 27px;
+	cursor: pointer;
+	border: 0; 
+	background:url(../images/pay.gif) no-repeat;
+}
